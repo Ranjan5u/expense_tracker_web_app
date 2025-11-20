@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-header {
+  background: #764ba2;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 1.5rem;
+}
+
+.btn-primary {
+  background: #667eea;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #5a67d8;
+}
+
+a {
+  color: #764ba2;
+}
+
+a:hover {
+  text-decoration: none;
+}
